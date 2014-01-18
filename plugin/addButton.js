@@ -1,4 +1,4 @@
-replaceContentInContainer('more-tweet-actions', '<a role="button" class="with-icn favorite js-tooltip" href="#"><span class="icon sm-fav"></span><b>Pin</b></a>');
+replaceContentInContainer('tweet-actions', '<li class="action-pin-container"><a role="button" class="with-icn pin js-tooltip" href="#"><span class="icon sm-fav"></span><b>Pin</b></a></li>');
 
 function replaceContentInContainer(matchClass,content) {
     var elems = document.getElementsByTagName('*'), i;
